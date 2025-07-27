@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mohamed-khaled/api-data-table",
+	"version": "1.0.0",
+	"title": "API Data Table",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Display data from external API in a responsive table format with configurable column visibility.",
+	"keywords": ["api", "data", "table", "external"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"className": true,
+		"anchor": true
+	},
+	"textdomain": "mohamed-khaled-api-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"attributes": {
+		"columnVisibility": {
+			"type": "object",
+			"default": {}
+		}
+	}
+}

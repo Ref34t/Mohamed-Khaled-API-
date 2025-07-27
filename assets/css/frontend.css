@@ -1,0 +1,106 @@
+/**
+ * Frontend styles for Mohamed Khaled API Plugin
+ */
+
+.mkap-data-table-block {
+	margin: 20px 0;
+}
+
+.mkap-data-table-container {
+	position: relative;
+	min-height: 100px;
+}
+
+/* Loading state */
+.mkap-loading {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.mkap-spinner {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	border-top-color: #007cba;
+	animation: mkap-spin 1s ease-in-out infinite;
+}
+
+@keyframes mkap-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.mkap-loading p {
+	margin-top: 15px;
+	color: #666;
+}
+
+/* Error state */
+.mkap-error {
+	background-color: #fef2f2;
+	border: 1px solid #fecaca;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+}
+
+.mkap-error p {
+	color: #dc2626;
+	margin: 0;
+}
+
+/* Table styles */
+.mkap-table-wrapper {
+	overflow-x: auto;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	background: #fff;
+}
+
+.mkap-data-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.mkap-data-table thead {
+	background-color: #f9fafb;
+}
+
+.mkap-data-table th {
+	padding: 12px 16px;
+	text-align: left;
+	font-weight: 600;
+	color: #374151;
+	border-bottom: 1px solid #e5e7eb;
+	white-space: nowrap;
+}
+
+.mkap-data-table td {
+	padding: 12px 16px;
+	color: #6b7280;
+	border-bottom: 1px solid #f3f4f6;
+}
+
+.mkap-data-table tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+.mkap-data-table tbody tr:hover {
+	background-color: #f9fafb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.mkap-data-table {
+		font-size: 12px;
+	}
+
+	.mkap-data-table th,
+	.mkap-data-table td {
+		padding: 8px 12px;
+	}
+}

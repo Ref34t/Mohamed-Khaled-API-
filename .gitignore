@@ -1,0 +1,66 @@
+# WordPress Plugin .gitignore
+
+# Development dependencies
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# Build artifacts (keep build/ for production)
+# Uncomment if you want to exclude build files:
+# build/
+
+# Development configuration
+phpcs.xml
+webpack.config.js
+.eslintrc.js
+.stylelintrc.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+tests/coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Plugin specific ignores
+*.zip
+!mohamed-khaled-api-plugin-*.zip

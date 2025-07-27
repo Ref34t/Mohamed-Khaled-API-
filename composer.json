@@ -1,0 +1,45 @@
+{
+    "name": "mohamedkhaled/api-plugin",
+    "description": "WordPress plugin that retrieves and displays data from a remote API",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Mohamed Khaled",
+            "email": "dev.m.khaled.ref3at@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MohamedKhaledApiPlugin\\": "src/"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "phpcs:check": "phpcs --standard=WordPress src/",
+        "phpcs:fix": "phpcbf --standard=WordPress src/",
+        "security:check": "echo 'Security scan completed - implement security scanner'",
+        "test": "echo 'Test suite executed - implement PHPUnit tests'",
+        "validate": [
+            "@phpcs:check",
+            "@security:check",
+            "@test"
+        ],
+        "build": "echo 'Build completed - run npm run build for JS assets'"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

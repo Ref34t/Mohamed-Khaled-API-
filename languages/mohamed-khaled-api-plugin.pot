@@ -1,0 +1,39 @@
+# Copyright (C) 2024 Mohamed Khaled
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mohamed Khaled API Plugin 1.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mohamedkhaled/wp-api-plugin/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: mohamed-khaled-api-plugin\n"
+
+#. Plugin Name of the plugin
+msgid "Mohamed Khaled API Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mohamedkhaled/wp-api-plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress plugin for API integration with caching and custom Gutenberg blocks."
+msgstr ""
+
+#. Author of the plugin
+msgid "Mohamed Khaled"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://mohamedkhaled.dev"
+msgstr ""
+
+#: mohamed-khaled-api-plugin.php:29
+msgid "Mohamed Khaled API Plugin requires PHP 7.4 or higher. Your current PHP version is %s."
+msgstr ""
