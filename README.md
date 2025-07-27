@@ -320,7 +320,7 @@ GPL v2 or later - WordPress compatible licensing
 ## 👨‍💻 Author
 
 **Mohamed Khaled**
-- Website: [mohamedkhaled.dev](https://mohamedkhaled.dev)
+- Website: [mokhaled.dev](https://mokhaled.dev)
 - Plugin URI: [GitHub Repository](https://github.com/mohamedkhaled/wp-api-plugin)
 
 ## 🆘 Support

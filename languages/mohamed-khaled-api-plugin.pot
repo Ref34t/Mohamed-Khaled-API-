@@ -31,7 +31,7 @@ msgid "Mohamed Khaled"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://mohamedkhaled.dev"
+msgid "https://mokhaled.dev"
 msgstr ""
 
 #: mohamed-khaled-api-plugin.php:29

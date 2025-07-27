@@ -5,14 +5,14 @@
  * Description: WordPress plugin for API integration with caching and custom Gutenberg blocks.
  * Version: 1.2.0
  * Author: Mohamed Khaled
- * Author URI: https://mohamedkhaled.dev
+ * Author URI: https://mokhaled.dev
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: mohamed-khaled-api-plugin
  * Domain Path: /languages
  * Requires at least: 6.0
  * Requires PHP: 7.4
- * Update URI: https://mohamedkhaled.dev/plugins/wp-api-plugin/
+ * Update URI: https://mokhaled.dev/plugins/wp-api-plugin/
  */
 
 namespace MohamedKhaledApiPlugin;
